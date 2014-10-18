@@ -64,7 +64,23 @@ var config = {
      *              later on we will add support for Database
      **/
     model: {
-        defaultAdapter: 'filesystem'
+        defaultAdapter: 'mongo'
+    },
+
+    /**
+     * @type string
+     * @memberof Production
+     * @description MongoDB configuration for adapter defined on @property model
+     **/
+    db: {
+        mongo: {
+            username: '',
+            dbname: 'geddy_api_development',
+            prefix: null,
+            password: null,
+            host: 'localhost',
+            port: 27017
+        }
     },
 
     /**

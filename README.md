@@ -28,9 +28,11 @@ Will be updated on each release.
 .
 ├── [4.0K]  app
 │   ├── [4.0K]  controllers
-│   │   ├── [1.3K]  application.js
-│   │   └── [ 299]  main.js
+│   │   ├── [6.7K]  application.js
+│   │   ├── [ 299]  main.js
+│   │   └── [ 584]  users.js
 │   ├── [4.0K]  models
+│   │   └── [ 263]  user.js
 │   └── [4.0K]  views
 │       ├── [4.0K]  errors
 │       │   ├── [ 184]  default.html.ejs
@@ -41,17 +43,18 @@ Will be updated on each release.
 │           ├── [   9]  layout_footer.html.ejs
 │           └── [ 868]  layout_header.html.ejs
 ├── [4.0K]  config
-│   ├── [1.6K]  development.js
+│   ├── [2.0K]  development.js
 │   ├── [ 276]  environment.js
 │   ├── [ 603]  init.js
 │   ├── [1.3K]  production.example.js
-│   └── [ 197]  router.js
+│   └── [ 223]  router.js
+├── [4.0K]  db
+│   └── [4.0K]  migrations
+│       └── [ 644]  20141017215438_create_users.js
 ├── [ 153]  Jakefile
-├── [ 152]  package.json
-├── [3.3K]  README.md
-└── [4.0K]  test
-    ├── [4.0K]  controllers
-    └── [4.0K]  models
+├── [ 235]  package.json
+└── [1.6K]  README.md
 
-10 directories, 16 files
+9 directories, 19 files
+
 ```
