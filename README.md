@@ -26,60 +26,32 @@ Will be updated on each release.
 
 ```
 .
-├── app
-│   ├── controllers
-│   │   ├── application.js
-│   │   └── main.js
-│   ├── helpers
-│   ├── models
-│   └── views
-│       ├── errors
-│       │   ├── default.html.ejs
-│       │   └── not_found.html.ejs
-│       ├── layouts
-│       │   ├── application.html.ejs
-│       │   ├── errors.html.ejs
-│       │   ├── layout_footer.html.ejs
-│       │   └── layout_header.html.ejs
-│       └── main
-│           └── index.html.ejs
-├── config
-│   ├── development.js
-│   ├── environment.js
-│   ├── init.js
-│   ├── production.js
-│   ├── router.js
-│   └── secrets.json
-├── Jakefile
-├── lib
-├── log
-├── node_modules
-├── package.json
-├── public
-│   ├── css
-│   │   ├── bootstrap.css
-│   │   ├── bootstrap.min.css
-│   │   ├── bootstrap.responsive.css
-│   │   ├── bootstrap.responsive.min.css
-│   │   └── style.css
-│   ├── favicon.ico
-│   ├── img
-│   │   ├── glyphicons-halflings.png
-│   │   ├── glyphicons-halflings-white.png
-│   │   └── whitey.png
-│   └── js
-│       ├── bootstrap.js
-│       ├── bootstrap.min.js
-│       ├── config
-│       │   └── init.js
-│       ├── core
-│       │   └── core.js
-│       └── jquery.min.js
-├── README.md
-└── test
-    ├── controllers
-    └── models
+├── [4.0K]  app
+│   ├── [4.0K]  controllers
+│   │   ├── [1.3K]  application.js
+│   │   └── [ 299]  main.js
+│   ├── [4.0K]  models
+│   └── [4.0K]  views
+│       ├── [4.0K]  errors
+│       │   ├── [ 184]  default.html.ejs
+│       │   └── [ 109]  not_found.html.ejs
+│       └── [4.0K]  layouts
+│           ├── [ 936]  application.html.ejs
+│           ├── [ 148]  errors.html.ejs
+│           ├── [   9]  layout_footer.html.ejs
+│           └── [ 868]  layout_header.html.ejs
+├── [4.0K]  config
+│   ├── [1.6K]  development.js
+│   ├── [ 276]  environment.js
+│   ├── [ 603]  init.js
+│   ├── [1.3K]  production.example.js
+│   └── [ 197]  router.js
+├── [ 153]  Jakefile
+├── [ 152]  package.json
+├── [3.3K]  README.md
+└── [4.0K]  test
+    ├── [4.0K]  controllers
+    └── [4.0K]  models
 
-21 directories, 32 files
-
+10 directories, 16 files
 ```

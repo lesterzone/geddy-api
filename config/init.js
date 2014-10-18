@@ -1,6 +1,12 @@
+'use strict';
+/**
+ * @memberof Environment
+ * @name init
+ * @description Initialize any configuration
+ **/
 var init = function(cb) {
     // Add uncaught-exception handler in prod-like environments
-    if (geddy.config.environment != 'development') {
+    if (geddy.config.environment !== 'development') {
         process.addListener('uncaughtException', function(err) {
             var msg = err.message;
             if (err.stack) {

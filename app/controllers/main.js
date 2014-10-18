@@ -1,11 +1,19 @@
+'use strict';
+/**
+ * @class Main Controller
+ * @extends Application
+ * @name Main
+ **/
 var Main = function() {
+
+    /**
+     * @name index
+     * @function
+     * @memberof Main
+     **/
     this.index = function(req, resp, params) {
-        this.respond({
-            params: params
-        }, {
-            format: 'html',
-            template: 'app/views/main/index'
-        });
+
+        this.send(200, params);
     };
 };
 
