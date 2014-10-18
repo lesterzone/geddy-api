@@ -2,7 +2,10 @@
   "name": "geddy-api",
   "version": "0.0.4",
   "author": "",
-  "dependencies": {},
+  "repository": "github.com:lesterzone/geddy-api.git",
+  "dependencies": {
+    "mongodb": "^1.4.18"
+  },
   "devDependencies": {},
   "engines": {
     "node": "0.10.*"
