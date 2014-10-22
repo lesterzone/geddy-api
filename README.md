@@ -7,13 +7,36 @@ with documentation, releases and code to solve common problems.
 
 * Provide a skeleton to build APIs with Geddy.
 * Solve common problems like: pagination, CRUD, json responses, sockets.
-* Well documetation
+* Well documentation
 * Keep project up to date with Geddy releases
+
+#### Done
+
+* API skeleton
+* Unit Test with Mocha.js
+
+#### Setup development Environment
+
+* Install Nodejs
+* Install MongoDB
+* Install geddy globally `[sudo] npm install geddy -g`
+* Clone the repository
+* Install dependencies `npm install`
+* Run development server `geddy`
 
 #### Contributors
 
 * @lesterzone
 
+#### Run Tests
+
+* Run Unit tests for model(s)
+
+```
+~$ geddy jake tests:unit # all models and controllers unit tests
+~$ geddy jake tests:models[user] # unit test for User model
+~$ geddy jake tests:integration # all controllers integration tests
+```
 
 #### Format Style
 
@@ -51,10 +74,17 @@ Will be updated on each release.
 ├── [4.0K]  db
 │   └── [4.0K]  migrations
 │       └── [ 644]  20141017215438_create_users.js
-├── [ 153]  Jakefile
-├── [ 235]  package.json
-└── [1.6K]  README.md
+├── [2.6K]  Jakefile
+├── [ 341]  package.json
+├── [1.7K]  README.md
+└── [4.0K]  test
+    ├── [2.1K]  config.js
+    ├── [4.0K]  integration
+    │   └── [4.0K]  controllers
+    └── [4.0K]  unit
+        ├── [4.0K]  controllers
+        └── [4.0K]  models
+            └── [ 589]  user.js
 
-9 directories, 19 files
-
+15 directories, 21 files
 ```
