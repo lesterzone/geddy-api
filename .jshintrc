@@ -21,6 +21,17 @@
     "jquery": true,
     "globals": {
         "geddy": true,
-        "jake": true
+        "jake": true,
+        "TestHelpers": true,
+        "expect": true,
+        "complete": true,
+        "chai": true,
+        "it": true,
+        "request": true,
+        "desc": true,
+        "task": true,
+        "namespace": true,
+        "beforeEach": true,
+        "describe": true
     }
 }
